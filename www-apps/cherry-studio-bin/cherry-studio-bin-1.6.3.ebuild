@@ -32,6 +32,7 @@ src_unpack() {
 }
 
 src_install() {
+	die
 	dobin cherry-studio
 	domenu "${FILESDIR}/cherry-studio.desktop"
 	doicon -s scalable "${FILESDIR}/cherry-studio.svg"
